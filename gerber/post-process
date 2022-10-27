@@ -1,0 +1,18 @@
+#!/bin/bash
+#
+# Subtract ECO layers from silk
+python ~/github/kicad-utils/scripts/gerber_combine/gerber_combine.py -a rp2040-launchpad-PCB-F_SilkS.gbr -s rp2040-launchpad-PCB-Eco1_User.gbr -o rp2040-launchpad-PCB-F_SilkS_n.gbr
+python ~/github/kicad-utils/scripts/gerber_combine/gerber_combine.py -a rp2040-launchpad-PCB-B_SilkS.gbr -s rp2040-launchpad-PCB-Eco2_User.gbr -o rp2040-launchpad-PCB-B_SilkS_n.gbr
+#
+# Remove old silk layers and eco layers
+rm rp2040-launchpad-PCB-F_SilkS.gbr rp2040-launchpad-PCB-B_SilkS.gbr
+rm rp2040-launchpad-PCB-Eco1_User.gbr rp2040-launchpad-PCB-Eco2_User.gbr
+#
+# Rename new silk layers
+mv rp2040-launchpad-PCB-F_SilkS_n.gbr rp2040-launchpad-PCB-F_SilkS.gbr
+mv rp2040-launchpad-PCB-B_SilkS_n.gbr rp2040-launchpad-PCB-B_SilkS.gbr
+# 
+# Remove old ZIP file and generate a new one
+rm -f rp2040-launchpad-PCB.zip
+zip rp2040-launchpad-PCB.zip *.gbr *.drl *.pos
+
