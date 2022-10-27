@@ -1,15 +1,19 @@
 # RP2040-Launchpad PCB
 
-The repository contains the KiCad design files for a TI-style Launchpad board
+This repository contains the KiCad design files for a TI-style Launchpad board
 with the RP2040 microcontroller. The board features a build-in picoprobe
 debugger, which signals UART RX/TX and SWD activity with 3 LEDs. The unused
 GPIO pins of the picoprobe are connected to a header, which could be used
-for more functionality like a simple logic analyzer etc.
+in the future for more functionality like a simple logic analyzer etc.
 
 The target RP2040 controller has 2 connected pushbuttons, one normal LED and
 8 WS2812-2020 LEDs as input/output. Some signals are also available on a
 horizonal header at the lower end of the PCB, which is used to connect WLAN or
-Bluetooth boards like WifiTick.
+Bluetooth boards like WifiTick. Both RP2040 (target and picoprobe) use a
+4 MiB flash chip. The target RP2040 also has a button to enable programming
+via the target USB port (mass storage device). Normally this button is
+not needed, because all programming and debugging of the target is performed
+via the picoprobe using openocd and gdb.
 
 The board also conatins a LiPo-charger to enable battery-powered projects.
 

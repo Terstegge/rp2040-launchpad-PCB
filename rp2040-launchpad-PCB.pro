@@ -1,4 +1,4 @@
-update=Mi 19 Okt 2022 14:23:26 CEST
+update=Do 27 Okt 2022 20:16:07 CEST
 version=1
 last_client=kicad
 [general]
@@ -244,7 +244,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=/home/andreas/Schreibtisch/
+PlotDirectoryName=./schematic.pdf
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
