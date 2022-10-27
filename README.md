@@ -14,12 +14,12 @@ Bluetooth boards like WifiTick.
 The board also conatins a LiPo-charger to enable battery-powered projects.
 
 Why was this board designed? I have been using the MSP432 Launchpad from TI for
-quite a while in university classes teaching microcontroller technologie.
-Unfortnately TI has stopped producing all MSP432-related products. Still we
+quite a while in university classes teaching microcontroller technology.
+Unfortunately TI has stopped producing all MSP432-related products. Still we
 have purchased lots of TI boosterpack-boards like the Educational Boosterpack MK II.
 The be able to used these Boosterpacks also in the future, a new Launchpad had
 to be found. The RP2040 is a very interesting microcontroller, and, what is
-quite important for educational purposes, it has a excellent documentation.
+quite important for educational purposes, it has excellent documentation.
 So some days were spent and this board came to life.
 
 The pictures below show version 1.1, which only had 2 WS2812 LEDS, which were
