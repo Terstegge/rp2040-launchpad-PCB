@@ -15,7 +15,7 @@ via the target USB port (mass storage device). Normally this button is
 not needed, because all programming and debugging of the target is performed
 via the picoprobe using openocd and gdb.
 
-The board also conatins a LiPo-charger to enable battery-powered projects.
+The board also contains a LiPo-charger to enable battery-powered projects.
 
 Why was this board designed? I have been using the MSP432 Launchpad from TI for
 quite a while in university classes teaching microcontroller technology.
