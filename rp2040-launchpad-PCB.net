@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/andreas/github/rp2040-launchpad-PCB/rp2040-launchpad-PCB.sch)
-    (date "Do 27 Okt 2022 20:16:54 CEST")
+    (date "Mi 02 Nov 2022 09:52:05 CET")
     (tool "Eeschema 5.1.5+dfsg1-2build2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
