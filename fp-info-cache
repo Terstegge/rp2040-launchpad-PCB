@@ -1,4 +1,4 @@
-16939382785959061
+16941050159188061
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75333,6 +75333,13 @@ WS2812B-2020
 0
 4
 4
+rp2040-launchpad-PCB
+raspberry
+
+
+0
+0
+0
 rp2040-launchpad-PCB
 rpi_logo
 
