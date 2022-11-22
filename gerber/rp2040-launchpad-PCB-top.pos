@@ -1,4 +1,4 @@
-### Module positions - created on Mi 02 Nov 2022 10:50:28 CET ###
+### Module positions - created on Di 22 Nov 2022 11:31:02 CET ###
 ### Printed by Pcbnew version kicad 5.1.5+dfsg1-2build2
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -85,6 +85,14 @@ U5        XC9142B50C            SOT-23-5                                11.0060 
 U6        XC6220B33             SOT-23-5                                11.0060    61.2800    0.0000  top
 U7        25Q32                 WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm    30.4800    75.1840    0.0000  top
 U8        RP2040                QFN40P700X700X90-57N                    41.1480    68.5800    0.0000  top
+U9        WS2812B-2020          WS2812B-2020                            29.2100    11.6840   90.0000  top
+U10       WS2812B-2020          WS2812B-2020                            31.7500    11.6840   90.0000  top
+U11       WS2812B-2020          WS2812B-2020                            34.2900    11.6840   90.0000  top
+U12       WS2812B-2020          WS2812B-2020                            36.8300    11.6840   90.0000  top
+U13       WS2812B-2020          WS2812B-2020                            39.3700    11.6840   90.0000  top
+U14       WS2812B-2020          WS2812B-2020                            41.9100    11.6840   90.0000  top
+U15       WS2812B-2020          WS2812B-2020                            44.4500    11.6840   90.0000  top
+U16       WS2812B-2020          WS2812B-2020                            46.9900    11.6840   90.0000  top
 USB1      USB_TARGET            USB-micro-B-Amph-10118194               11.4000     2.5070    0.0000  top
 USB2      USB_PC                USB-micro-B-Amph-10118194               11.4140    81.2800  180.0000  top
 Y1        12MHz                 Crystal_SMD_TXC_7M-4Pin_3.2x2.5mm       31.4960    42.7990  180.0000  top

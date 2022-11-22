@@ -1,9 +1,9 @@
 "ID";"Bezeichner";"Gehäuse";"Stückzahl";"Bezeichnung";"Anbieter und Referenz";
-1;"G***,G***";"raspberry";2;"LOGO";;;
-2;"D4,D5";"D_SOD-123";2;"D_Schottky";;;
-3;",,,";"";4;"";;;
-4;"G***,G***";"Lauchpad-Energia-Logo";2;"LOGO";;;
-5;"U9,U10,U11,U12,U13,U14,U15,U16";"WS2812B-2020";8;"WS2812B-2020";;;
+1;"U9,U10,U11,U12,U13,U14,U15,U16";"WS2812B-2020";8;"WS2812B-2020";;;
+2;"G***,G***";"raspberry";2;"LOGO";;;
+3;"D4,D5";"D_SOD-123";2;"D_Schottky";;;
+4;",,,";"";4;"";;;
+5;"G***,G***";"Lauchpad-Energia-Logo";2;"LOGO";;;
 6;"USB2";"USB-micro-B-Amph-10118194";1;"USB PC";;;
 7;"USB1";"USB-micro-B-Amph-10118194";1;"USB TARGET";;;
 8;"SW1";"DIPT-1188E";1;"RESET";;;
