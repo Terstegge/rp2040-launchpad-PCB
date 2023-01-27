@@ -1,4 +1,4 @@
-### Module positions - created on Di 22 Nov 2022 11:31:02 CET ###
+### Module positions - created on Fr 27 Jan 2023 18:26:16 CET ###
 ### Printed by Pcbnew version kicad 5.1.5+dfsg1-2build2
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -40,8 +40,6 @@ C34       100nF                 C_0603_1608Metric                       36.3220 
 C35       100nF                 C_0603_1608Metric                       37.8460    77.9525   90.0000  top
 D1        LED_0                 LED_0603_1608Metric                     17.7800    11.6585   90.0000  top
 D3        Charge                LED_0603_1608Metric                     17.5005    73.4060  180.0000  top
-D4        D_Schottky            D_SOD-123                                2.7940    57.9120    0.0000  top
-D5        D_Schottky            D_SOD-123                                2.7940    76.2000    0.0000  top
 D6        PWR                   LED_0603_1608Metric                     25.3745    60.7060    0.0000  top
 D7        BLUE                  LED_0603_1608Metric                     25.3745    66.8020    0.0000  top
 D8        GREEN                 LED_0603_1608Metric                     25.3745    64.7700    0.0000  top
@@ -77,6 +75,7 @@ S1        S1                    DIPT-1188E                               2.6780 
 S2        S2                    DIPT-1188E                              55.7640    51.2490   90.0000  top
 SW1       RESET                 DIPT-1188E                              22.2320     2.6360    0.0000  top
 SW2       BOOT                  KMR2-Switch                             40.3680    17.4880  180.0000  top
+SW3       Switch_SP3T           PCM13SMTR                                2.1590    67.5640  270.0000  top
 U1        25Q32                 WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm    39.8780    23.6220  180.0000  top
 U2        RP2040                QFN40P700X700X90-57N                    29.2100    33.1470  180.0000  top
 U3        RS2299                QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm     17.6530    31.3690  180.0000  top

@@ -1,4 +1,4 @@
-16941050935931061
+16942727616754061
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75298,6 +75298,13 @@ Lauchpad-Logo-small
 0
 0
 0
+rp2040-launchpad-PCB
+PCM13SMTR
+
+
+0
+8
+5
 rp2040-launchpad-PCB
 QFN40P700X700X90-57N
 

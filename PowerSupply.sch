@@ -199,34 +199,6 @@ Wire Wire Line
 	6050 3550 6050 3725
 Wire Wire Line
 	6050 4325 6050 4025
-$Comp
-L Device:D_Schottky D5
-U 1 1 629E6321
-P 6275 3550
-F 0 "D5" H 6275 3426 50  0000 C CNN
-F 1 "D_Schottky" H 6275 3425 50  0001 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 6275 3550 50  0001 C CNN
-F 3 "https://www.digikey.de/de/products/detail/onsemi/MBR120VLSFT1G/893861" H 6275 3550 50  0001 C CNN
-F 4 "z.B. ON" H 6275 3550 50  0001 C CNN "MANUFACTURER"
-	1    6275 3550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6125 3550 6050 3550
-$Comp
-L Device:D_Schottky D4
-U 1 1 629EA4B3
-P 6275 2650
-F 0 "D4" H 6275 2526 50  0000 C CNN
-F 1 "D_Schottky" H 6275 2525 50  0001 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 6275 2650 50  0001 C CNN
-F 3 "https://www.digikey.de/de/products/detail/onsemi/MBR120VLSFT1G/893861" H 6275 2650 50  0001 C CNN
-F 4 "z.B. ON" H 6275 2650 50  0001 C CNN "MANUFACTURER"
-	1    6275 2650
-	-1   0    0    1   
-$EndComp
-Text Notes 6225 2925 0    50   ~ 0
-5.0V
 Text Notes 5850 3550 0    50   ~ 0
 5.0V
 Text Notes 3675 3425 0    50   ~ 0
@@ -244,7 +216,7 @@ F 4 "z.B. Kemet" H 7200 3875 50  0001 C CNN "MANUFACTURER"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6050 4325 7200 4325
+	6050 4325 6425 4325
 Wire Wire Line
 	7200 4325 7200 4025
 Connection ~ 6050 4325
@@ -335,20 +307,12 @@ F 3 "~" H 4550 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7200 3225 7200 3450
-Connection ~ 7200 3450
-Wire Wire Line
-	7200 3450 7200 3725
-Wire Wire Line
 	7200 4325 8425 4325
 Wire Wire Line
 	8425 4325 8425 4050
 Connection ~ 7200 4325
 Wire Wire Line
 	7625 3450 7550 3450
-Connection ~ 7550 3450
-Wire Wire Line
-	7550 3450 7200 3450
 NoConn ~ 7625 4050
 Wire Wire Line
 	9150 4450 9150 4325
@@ -423,7 +387,6 @@ Wire Wire Line
 Connection ~ 8875 3450
 Wire Wire Line
 	8875 3450 9150 3450
-Connection ~ 7200 3225
 Wire Wire Line
 	9150 3450 9600 3450
 Connection ~ 9150 3450
@@ -485,58 +448,81 @@ Wire Notes Line
 	4700 2225 2400 2225
 Wire Notes Line
 	2400 2225 2400 2575
-Wire Wire Line
-	6975 3550 6975 3325
-Wire Wire Line
-	6975 3225 7200 3225
 Text HLabel 1775 2925 0    50   Input ~ 0
 VBUS_DBG
-Text HLabel 1775 2650 0    50   Input ~ 0
+Text HLabel 1775 4825 0    50   Input ~ 0
 VBUS_TRGT
-Wire Wire Line
-	6975 2650 6975 3125
-$Comp
-L Connector_Generic:Conn_01x03 J?
-U 1 1 62854E20
-P 6775 3225
-AR Path="/62854E20" Ref="J?"  Part="1" 
-AR Path="/6284C5D3/62854E20" Ref="J9"  Part="1" 
-F 0 "J9" H 6725 3425 39  0000 L CNN
-F 1 "PWR select" V 6900 3000 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6775 3225 50  0001 C CNN
-F 3 "wird nicht bestückt" H 6775 3225 50  0001 C CNN
-	1    6775 3225
-	-1   0    0    1   
-$EndComp
 Connection ~ 1925 3450
 Wire Wire Line
 	1775 2925 1925 2925
-Connection ~ 1925 2925
 Wire Wire Line
 	1925 2925 1925 3450
 $Comp
 L rp2040-launchpad-PCB:+5V_DBG #PWR045
 U 1 1 622C997B
-P 9600 3225
+P 9600 2925
 AR Path="/622C997B" Ref="#PWR045"  Part="1" 
 AR Path="/6284C5D3/622C997B" Ref="#PWR045"  Part="1" 
-F 0 "#PWR045" H 9600 3075 50  0001 C CNN
-F 1 "+5V_DBG" H 9850 3275 50  0000 C CNN
-F 2 "" H 9600 3225 50  0001 C CNN
-F 3 "" H 9600 3225 50  0001 C CNN
-	1    9600 3225
+F 0 "#PWR045" H 9600 2775 50  0001 C CNN
+F 1 "+5V_DBG" H 9850 2975 50  0000 C CNN
+F 2 "" H 9600 2925 50  0001 C CNN
+F 3 "" H 9600 2925 50  0001 C CNN
+	1    9600 2925
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6425 3550 6975 3550
+	6050 3550 6425 3550
 Wire Wire Line
-	7200 2925 7200 3225
+	6425 3450 6300 3450
 Wire Wire Line
-	1775 2650 6125 2650
+	6425 3800 6425 4325
+Connection ~ 6425 4325
 Wire Wire Line
-	6425 2650 6975 2650
+	6425 4325 7200 4325
+Connection ~ 1925 2925
 Wire Wire Line
-	1925 2925 7200 2925
+	6300 3650 6425 3650
 Wire Wire Line
-	7200 3225 9600 3225
+	6825 3550 7200 3550
+Connection ~ 7200 3550
+Wire Wire Line
+	7200 3550 7200 3725
+Wire Wire Line
+	7200 2925 9600 2925
+Wire Wire Line
+	6300 4825 1775 4825
+Wire Wire Line
+	6300 4825 6300 3650
+Wire Wire Line
+	6300 3450 6300 2925
+Wire Wire Line
+	1925 2925 6300 2925
+Wire Wire Line
+	7200 3550 7550 3550
+Connection ~ 7550 3550
+Wire Wire Line
+	7200 2925 7200 3550
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 63A6273A
+P 9600 2925
+F 0 "#FLG0103" H 9600 3000 50  0001 C CNN
+F 1 "PWR_FLAG" H 9600 3098 50  0000 C CNN
+F 2 "" H 9600 2925 50  0001 C CNN
+F 3 "~" H 9600 2925 50  0001 C CNN
+	1    9600 2925
+	-1   0    0    1   
+$EndComp
+$Comp
+L rp2040-launchpad-PCB:Switch_SP3T SW3
+U 1 1 63A861C8
+P 6525 3450
+F 0 "SW3" H 6425 3675 50  0000 C CNN
+F 1 "Switch_SP3T" H 6425 3584 50  0000 C CNN
+F 2 "rp2040-launchpad-PCB:PCM13SMTR" H 6525 3450 50  0001 C CNN
+F 3 "" H 6525 3450 50  0001 C CNN
+	1    6525 3450
+	-1   0    0    -1  
+$EndComp
+Connection ~ 9600 2925
 $EndSCHEMATC

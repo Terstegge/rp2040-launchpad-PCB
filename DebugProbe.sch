@@ -507,14 +507,6 @@ Wire Wire Line
 	3450 5950 3150 5950
 Text HLabel 2700 3200 2    50   Output ~ 0
 VBUS_DBG
-Connection ~ 8575 3000
-Wire Wire Line
-	8575 2750 8575 3000
-Connection ~ 8575 3250
-Wire Wire Line
-	8575 3000 8575 3250
-Wire Wire Line
-	8575 3250 8575 3350
 Wire Wire Line
 	7575 3100 7575 3250
 Wire Wire Line
@@ -645,14 +637,14 @@ $EndComp
 $Comp
 L rp2040-launchpad-PCB:GND_DBG #PWR?
 U 1 1 6229329A
-P 8575 3350
+P 8800 3350
 AR Path="/6229329A" Ref="#PWR?"  Part="1" 
 AR Path="/6225139F/6229329A" Ref="#PWR062"  Part="1" 
-F 0 "#PWR062" H 8575 3100 50  0001 C CNN
-F 1 "GND_DBG" H 8750 3200 50  0000 R CNN
-F 2 "" H 8575 3350 50  0001 C CNN
-F 3 "" H 8575 3350 50  0001 C CNN
-	1    8575 3350
+F 0 "#PWR062" H 8800 3100 50  0001 C CNN
+F 1 "GND_DBG" H 8975 3200 50  0000 R CNN
+F 2 "" H 8800 3350 50  0001 C CNN
+F 3 "" H 8800 3350 50  0001 C CNN
+	1    8800 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -879,12 +871,6 @@ Wire Wire Line
 Connection ~ 3700 4300
 Wire Wire Line
 	3250 4300 3150 4300
-Wire Wire Line
-	8375 2750 8575 2750
-Wire Wire Line
-	8375 3000 8575 3000
-Wire Wire Line
-	8375 3250 8575 3250
 $Comp
 L Device:LED D?
 U 1 1 6229325D
@@ -1094,4 +1080,24 @@ F 5 "unkritisch" H 3400 3900 50  0001 C CNN "STANDARD"
 	1    3400 3900
 	0    -1   -1   0   
 $EndComp
+Text Notes 8550 2750 0    50   ~ 0
+SWD
+Text Notes 8575 3000 0    50   ~ 0
+RX\n
+Text Notes 8575 3250 0    50   ~ 0
+TX
+Wire Wire Line
+	8375 2750 8800 2750
+Wire Wire Line
+	8375 3250 8800 3250
+Wire Wire Line
+	8800 2750 8800 3000
+Wire Wire Line
+	8375 3000 8800 3000
+Connection ~ 8800 3000
+Wire Wire Line
+	8800 3000 8800 3250
+Wire Wire Line
+	8800 3350 8800 3250
+Connection ~ 8800 3250
 $EndSCHEMATC
