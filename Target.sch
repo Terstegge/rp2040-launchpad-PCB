@@ -1860,10 +1860,10 @@ Wire Wire Line
 	9200 3800 9200 4325
 Wire Wire Line
 	9500 4825 9500 5225
-Text Label 1225 7550 0    50   ~ 0
-SPI0_RX
 Wire Wire Line
 	1225 6975 1650 6975
 Wire Wire Line
 	1700 7550 1225 7550
+Text Label 1225 7550 0    50   ~ 0
+PWM6B
 $EndSCHEMATC
