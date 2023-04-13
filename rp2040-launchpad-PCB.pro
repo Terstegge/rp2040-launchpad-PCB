@@ -1,4 +1,4 @@
-update=Fr 27 Jan 2023 18:07:06 CET
+update=Mo 13 Mär 2023 14:38:51 CET
 version=1
 last_client=kicad
 [general]
@@ -244,7 +244,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=./schematic1.pdf
+PlotDirectoryName=./rp2040-launchpad.pdf
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
