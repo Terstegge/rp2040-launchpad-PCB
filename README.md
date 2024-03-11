@@ -26,10 +26,9 @@ to be found. The RP2040 is a very interesting microcontroller, and, what is
 quite important for educational purposes, it has excellent documentation.
 So some days were spent and this board came to life.
 
-The pictures below show version 1.1, which only had 2 WS2812 LEDS, which were
-quite big and bright. The current version 1.2 contains 8 smaller WS2812-2020
-LEDs. The pictures will be updated as soon as prototypes for the new version
-are available.
+The pictures below show version 1.3. The board features 2 user buttons and
+a reset button on the lower edge. Additionally there is one
+user-programmable simple red LED and a row of 8 WS2812 LEDS.
  
-![RP2040 Lauchpad picture 1](images/rp2040-launchpad.png)
+![RP2040 Lauchpad picture 1](images/RP2040_Launchpad_v13.jpg)
 
